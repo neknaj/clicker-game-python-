@@ -4,17 +4,19 @@ import sys
 import random
 from tkinter import messagebox
 
-
+#総ガム数
 def gum():
     global r
     r = r + o
 
 r = 0
 
+#減らす奴
 def herasu():
     global r
     r = r - o
 
+#減らす奴2
 def herasu2():
     global r
     r = r - p
